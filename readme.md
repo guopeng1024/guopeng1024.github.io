@@ -1,28 +1,23 @@
----
-comment: false 
----
-
-### 个人前端学习笔记
-
-- Linux
-  - [gitpage+vuepress+jenkins静态博客](/Linux/gitpage+vuepress+jenkins静态博客.md)
-  - [http报文-概念状态码](/Linux/http报文-概念状态码.md)
-  - [http报文-首部](/Linux/http报文-首部.md)
-  - [linux常用指令](/Linux/linux常用指令.md)
-  - [markdown](/Linux/markdown.md)
-  - [shell-echo&printf](/Linux/shell-echo&printf.md)
-  - [shell-test验证](/Linux/shell-test验证.md)
-  - [shell-传递参数](/Linux/shell-传递参数.md)
-  - [shell-函数](/Linux/shell-函数.md)
-  - [shell-基础](/Linux/shell-基础.md)
-  - [shell-模块化](/Linux/shell-模块化.md)
-  - [shell-流程控制-if&for](/Linux/shell-流程控制-if&for.md)
-  - [shell-疑问记录](/Linux/shell-疑问记录.md)
-  - [shell-输入输出重定向](/Linux/shell-输入输出重定向.md)
-  - [shell-运算符](/Linux/shell-运算符.md)
-  - [windows快捷键](/Linux/windows快捷键.md)
-
-
-### 更新
-- markdown编辑，根据文章目录结构自动生成结构
-- Git Page + Vue Press界面
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>个人前端学习笔记 | 学习笔记</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/docs/favorite.ico">
+    <meta name="description" content="记录平时所接触到的知识点">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.f5291656.css" as="style"><link rel="preload" href="/docs/assets/js/app.0b0616b7.js" as="script"><link rel="preload" href="/docs/assets/js/2.8652338c.js" as="script"><link rel="preload" href="/docs/assets/js/24.c09333ef.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.1b597e2c.js"><link rel="prefetch" href="/docs/assets/js/11.5e96b0f1.js"><link rel="prefetch" href="/docs/assets/js/12.1214e308.js"><link rel="prefetch" href="/docs/assets/js/13.733e1bbd.js"><link rel="prefetch" href="/docs/assets/js/14.01271058.js"><link rel="prefetch" href="/docs/assets/js/15.8b67eb16.js"><link rel="prefetch" href="/docs/assets/js/16.144b6b64.js"><link rel="prefetch" href="/docs/assets/js/17.fe8718b4.js"><link rel="prefetch" href="/docs/assets/js/18.bba6f4f4.js"><link rel="prefetch" href="/docs/assets/js/19.aebec962.js"><link rel="prefetch" href="/docs/assets/js/20.89f3cd8d.js"><link rel="prefetch" href="/docs/assets/js/21.af72b67b.js"><link rel="prefetch" href="/docs/assets/js/22.d9eb9f43.js"><link rel="prefetch" href="/docs/assets/js/23.9a9e64b6.js"><link rel="prefetch" href="/docs/assets/js/3.6ec8047f.js"><link rel="prefetch" href="/docs/assets/js/4.d7fa8b7d.js"><link rel="prefetch" href="/docs/assets/js/5.79cecb08.js"><link rel="prefetch" href="/docs/assets/js/6.0580fd75.js"><link rel="prefetch" href="/docs/assets/js/7.ca29ce03.js"><link rel="prefetch" href="/docs/assets/js/8.c2664ef6.js"><link rel="prefetch" href="/docs/assets/js/9.30022ac3.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.f5291656.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" aria-current="page" class="home-link router-link-exact-active router-link-active"><!----> <span class="site-name">学习笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"> <a href="https://github.com/guopeng1024/guopeng1024.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"> <a href="https://github.com/guopeng1024/guopeng1024.github.io" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Linux</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/Linux/gitpage+vuepress+jenkins静态博客.html" class="sidebar-link">gitpage+vuepress+jen...</a></li><li><a href="/docs/Linux/http报文-概念状态码.html" class="sidebar-link">http报文-概念状态码</a></li><li><a href="/docs/Linux/http报文-首部.html" class="sidebar-link">http报文-首部</a></li><li><a href="/docs/Linux/linux常用指令.html" class="sidebar-link">linux常用指令</a></li><li><a href="/docs/Linux/markdown.html" class="sidebar-link">markdown</a></li><li><a href="/docs/Linux/shell-echo&amp;printf.html" class="sidebar-link">shell-echo&amp;printf</a></li><li><a href="/docs/Linux/shell-test验证.html" class="sidebar-link">shell-test验证</a></li><li><a href="/docs/Linux/shell-传递参数.html" class="sidebar-link">shell-传递参数</a></li><li><a href="/docs/Linux/shell-函数.html" class="sidebar-link">shell-函数</a></li><li><a href="/docs/Linux/shell-基础.html" class="sidebar-link">shell-基础</a></li><li><a href="/docs/Linux/shell-模块化.html" class="sidebar-link">shell-模块化</a></li><li><a href="/docs/Linux/shell-流程控制-if&amp;for.html" class="sidebar-link">shell-流程控制-if&amp;for</a></li><li><a href="/docs/Linux/shell-疑问记录.html" class="sidebar-link">shell-疑问记录</a></li><li><a href="/docs/Linux/shell-输入输出重定向.html" class="sidebar-link">shell-输入输出重定向</a></li><li><a href="/docs/Linux/shell-运算符.html" class="sidebar-link">shell-运算符</a></li><li><a href="/docs/Linux/windows快捷键.html" class="sidebar-link">windows快捷键</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="个人前端学习笔记"><a href="#个人前端学习笔记" class="header-anchor">#</a> 个人前端学习笔记</h3> <ul><li>Linux
+<ul><li><a href="/docs/Linux/gitpage+vuepress+jenkins静态博客.html">gitpage+vuepress+jenkins静态博客</a></li> <li><a href="/docs/Linux/http报文-概念状态码.html">http报文-概念状态码</a></li> <li><a href="/docs/Linux/http报文-首部.html">http报文-首部</a></li> <li><a href="/docs/Linux/linux常用指令.html">linux常用指令</a></li> <li><a href="/docs/Linux/markdown.html">markdown</a></li> <li><a href="/docs/Linux/shell-echo&amp;printf.html">shell-echo&amp;printf</a></li> <li><a href="/docs/Linux/shell-test验证.html">shell-test验证</a></li> <li><a href="/docs/Linux/shell-传递参数.html">shell-传递参数</a></li> <li><a href="/docs/Linux/shell-函数.html">shell-函数</a></li> <li><a href="/docs/Linux/shell-基础.html">shell-基础</a></li> <li><a href="/docs/Linux/shell-模块化.html">shell-模块化</a></li> <li><a href="/docs/Linux/shell-流程控制-if&amp;for.html">shell-流程控制-if&amp;for</a></li> <li><a href="/docs/Linux/shell-疑问记录.html">shell-疑问记录</a></li> <li><a href="/docs/Linux/shell-输入输出重定向.html">shell-输入输出重定向</a></li> <li><a href="/docs/Linux/shell-运算符.html">shell-运算符</a></li> <li><a href="/docs/Linux/windows快捷键.html">windows快捷键</a></li></ul></li></ul> <h3 id="更新"><a href="#更新" class="header-anchor">#</a> 更新</h3> <ul><li>markdown编辑，根据文章目录结构自动生成结构</li> <li>Git Page + Vue Press界面</li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/guopeng1024/guopeng1024.github.io/edit/main/readme.md" target="_blank" rel="noopener noreferrer">纠正错误</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">最近提交:</span> <span class="time">12/3/2020, 9:00:10 PM</span></div></footer> <!----> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/docs/assets/js/app.0b0616b7.js" defer></script><script src="/docs/assets/js/2.8652338c.js" defer></script><script src="/docs/assets/js/24.c09333ef.js" defer></script>
+  </body>
+</html>

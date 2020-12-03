@@ -30,10 +30,10 @@ module.exports = {
   head: [['link', { rel: 'icon', href: '/favorite.ico' }]],
   themeConfig: {
     repoLabel: 'GitHub',
-    repo: 'https://github.com/justwe7/blog',
+    repo: 'https://github.com/guopeng1024/guopeng1024.github.io',
     lastUpdated: '最近提交',
     docsDir: '',
-    docsBranch: 'feature',
+    docsBranch: 'main',
     editLinks: true,
     editLinkText: '纠正错误',
     smoothScroll: true,
