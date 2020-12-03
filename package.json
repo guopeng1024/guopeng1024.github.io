@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx vuepress dev",
     "build": "npx vuepress build",
-    "publish": "node ./generateMD.js && git pull origin feature && git add . && git commit -m 'update' && git push origin feature"
+    "publish": "node ./generateMD.js && git pull origin note && git add . && git commit -m 'update' && git push origin feature && git checkout -b main && npm run build && git add . && git commit -m '发布' && git push origin main --force"
   },
   "dependencies": {
     "vuepress": "^1.2.0",
