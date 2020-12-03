@@ -2,7 +2,7 @@
 comment: false 
 ---
 
-### 个人前端学习笔记
+### 郭鹏的学习笔记
 
 - Linux
   - [gitpage+vuepress+jenkins静态博客](/Linux/gitpage+vuepress+jenkins静态博客.md)
