@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>数值运算测试 | 学习笔记</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/favorite.ico">
+    <meta name="description" content="记录平时所接触到的知识点">
+    
+    <link rel="preload" href="/assets/css/0.styles.dd05465f.css" as="style"><link rel="preload" href="/assets/js/app.68dc6a15.js" as="script"><link rel="preload" href="/assets/js/2.8652338c.js" as="script"><link rel="preload" href="/assets/js/13.75a1bf01.js" as="script"><link rel="prefetch" href="/assets/js/10.1b597e2c.js"><link rel="prefetch" href="/assets/js/11.96143f2d.js"><link rel="prefetch" href="/assets/js/12.d6a7527e.js"><link rel="prefetch" href="/assets/js/14.82fd61b8.js"><link rel="prefetch" href="/assets/js/15.b7edaf1f.js"><link rel="prefetch" href="/assets/js/16.d0fd3270.js"><link rel="prefetch" href="/assets/js/17.6905fec2.js"><link rel="prefetch" href="/assets/js/18.bd25b711.js"><link rel="prefetch" href="/assets/js/19.9bd4666d.js"><link rel="prefetch" href="/assets/js/20.e1145963.js"><link rel="prefetch" href="/assets/js/21.7cabd7de.js"><link rel="prefetch" href="/assets/js/22.d9eb9f43.js"><link rel="prefetch" href="/assets/js/23.9a9e64b6.js"><link rel="prefetch" href="/assets/js/24.c09333ef.js"><link rel="prefetch" href="/assets/js/3.63034ec6.js"><link rel="prefetch" href="/assets/js/4.782e1469.js"><link rel="prefetch" href="/assets/js/5.79cecb08.js"><link rel="prefetch" href="/assets/js/6.bcad641c.js"><link rel="prefetch" href="/assets/js/7.176ba466.js"><link rel="prefetch" href="/assets/js/8.d2a38c9f.js"><link rel="prefetch" href="/assets/js/9.30022ac3.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.dd05465f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">学习笔记</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"> <a href="https://github.com/justwe7/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"> <a href="https://github.com/justwe7/blog" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Linux</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Linux/gitpage+vuepress+jenkins静态博客.html" class="sidebar-link">gitpage+vuepress+jen...</a></li><li><a href="/Linux/http报文-概念状态码.html" class="sidebar-link">http报文-概念状态码</a></li><li><a href="/Linux/http报文-首部.html" class="sidebar-link">http报文-首部</a></li><li><a href="/Linux/linux常用指令.html" class="sidebar-link">linux常用指令</a></li><li><a href="/Linux/markdown.html" class="sidebar-link">markdown</a></li><li><a href="/Linux/shell-echo&amp;printf.html" class="sidebar-link">shell-echo&amp;printf</a></li><li><a href="/Linux/shell-test验证.html" class="active sidebar-link">shell-test验证</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Linux/shell-传递参数.html" class="sidebar-link">shell-传递参数</a></li><li><a href="/Linux/shell-函数.html" class="sidebar-link">shell-函数</a></li><li><a href="/Linux/shell-基础.html" class="sidebar-link">shell-基础</a></li><li><a href="/Linux/shell-模块化.html" class="sidebar-link">shell-模块化</a></li><li><a href="/Linux/shell-流程控制-if&amp;for.html" class="sidebar-link">shell-流程控制-if&amp;for</a></li><li><a href="/Linux/shell-疑问记录.html" class="sidebar-link">shell-疑问记录</a></li><li><a href="/Linux/shell-输入输出重定向.html" class="sidebar-link">shell-输入输出重定向</a></li><li><a href="/Linux/shell-运算符.html" class="sidebar-link">shell-运算符</a></li><li><a href="/Linux/windows快捷键.html" class="sidebar-link">windows快捷键</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="数值运算测试"><a href="#数值运算测试" class="header-anchor">#</a> 数值运算测试</h3> <p>与关系运算符规则类似</p> <table><thead><tr><th>运算符</th> <th>说明</th></tr></thead> <tbody><tr><td>-eq</td> <td>等于则为真</td></tr> <tr><td>-ne</td> <td>不等于则为真</td></tr> <tr><td>-gt</td> <td>大于则为真</td></tr> <tr><td>-lt</td> <td>大于等于则为真</td></tr> <tr><td>-ge</td> <td>小于则为真</td></tr> <tr><td>-le</td> <td>小于等于则为真</td></tr></tbody></table> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">num1</span><span class="token operator">=</span><span class="token number">100</span>
+<span class="token assign-left variable">num2</span><span class="token operator">=</span><span class="token number">100</span>
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> $<span class="token punctuation">[</span>num1<span class="token punctuation">]</span> -eq $<span class="token punctuation">[</span>num2<span class="token punctuation">]</span>
+<span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'两个数相等！'</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'两个数不相等！'</span>
+<span class="token keyword">fi</span>
+
+两个数相等！
+</code></pre></div><div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">a</span><span class="token operator">=</span><span class="token number">5</span>
+<span class="token assign-left variable">b</span><span class="token operator">=</span><span class="token number">6</span>
+
+<span class="token assign-left variable">result</span><span class="token operator">=</span>$<span class="token punctuation">[</span>a+b<span class="token punctuation">]</span> <span class="token comment"># 注意等号两边不能有空格</span>
+<span class="token builtin class-name">echo</span> <span class="token string">&quot;result 为： <span class="token variable">$result</span>&quot;</span>
+
+result 为： <span class="token number">11</span>
+</code></pre></div><h3 id="字符串验证"><a href="#字符串验证" class="header-anchor">#</a> 字符串验证</h3> <table><thead><tr><th>运算符</th> <th>说明</th></tr></thead> <tbody><tr><td>=</td> <td>等于则为真</td></tr> <tr><td>!=</td> <td>不相等则为真</td></tr> <tr><td>-z 字符串</td> <td>字符串的长度为零则为真</td></tr> <tr><td>-n 字符串</td> <td>字符串的长度不为零则为真</td></tr></tbody></table> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token assign-left variable">num1</span><span class="token operator">=</span><span class="token string">&quot;ru1noob&quot;</span>
+<span class="token assign-left variable">num2</span><span class="token operator">=</span><span class="token string">&quot;runoob&quot;</span>
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> <span class="token variable">$num1</span> <span class="token operator">=</span> <span class="token variable">$num2</span>
+<span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'两个字符串相等!'</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'两个字符串不相等!'</span>
+<span class="token keyword">fi</span>
+
+两个字符串不相等<span class="token operator">!</span>
+</code></pre></div><h3 id="文件测试验证"><a href="#文件测试验证" class="header-anchor">#</a> 文件测试验证</h3> <table><thead><tr><th>运算符</th> <th>说明</th></tr></thead> <tbody><tr><td>-e 文件名</td> <td>如果文件存在则为真</td></tr> <tr><td>-r 文件名</td> <td>如果文件存在且可读则为真</td></tr> <tr><td>-w 文件名</td> <td>如果文件存在且可写则为真</td></tr> <tr><td>-x 文件名</td> <td>如果文件存在且可执行则为真</td></tr> <tr><td>-s 文件名</td> <td>如果文件存在且至少有一个字符则为真</td></tr> <tr><td>-d 文件名</td> <td>如果文件存在且为目录则为真</td></tr> <tr><td>-f 文件名</td> <td>如果文件存在且为普通文件则为真</td></tr> <tr><td>-c 文件名</td> <td>如果文件存在且为字符型特殊文件则为真</td></tr> <tr><td>-b 文件名</td> <td>如果文件存在且为块特殊文件则为真</td></tr></tbody></table> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> /bin
+
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> -e ./bash
+<span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'文件已存在!'</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'文件不存在!'</span>
+<span class="token keyword">fi</span>
+
+文件已存在<span class="token operator">!</span>
+</code></pre></div><p><strong>与( -a )、或( -o )、非( ! )三个逻辑操作符</strong>用于将测试条件连接起来，其优先级为：&quot;!&quot;最高，&quot;-a&quot;次之，&quot;-o&quot;最低。例如：</p> <p>判断 notFile 存在 或  bash 存在</p> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token builtin class-name">cd</span> /bin
+<span class="token keyword">if</span> <span class="token builtin class-name">test</span> -e ./notFile -o -e ./bash
+<span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'至少有一个文件存在!'</span>
+<span class="token keyword">else</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">'两个文件都不存在'</span>
+<span class="token keyword">fi</span>
+
+至少有一个文件存在！
+</code></pre></div></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/justwe7/blog/edit/feature/Linux/shell-test验证.md" target="_blank" rel="noopener noreferrer">纠正错误</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">最近提交:</span> <span class="time">12/3/2020, 9:00:10 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/Linux/shell-echo&amp;printf.html" class="prev">
+        shell-echo&amp;printf
+      </a></span> <span class="next"><a href="/Linux/shell-传递参数.html">
+        shell-传递参数
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.68dc6a15.js" defer></script><script src="/assets/js/2.8652338c.js" defer></script><script src="/assets/js/13.75a1bf01.js" defer></script>
+  </body>
+</html>
